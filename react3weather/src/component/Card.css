@@ -1,0 +1,43 @@
+.card-container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.card-container .card-title{
+    text-align: center;
+}
+.card-container .card-body{
+    width:100%;
+    display: flex;
+}
+.card-container .card-body .card-item{
+    width:20%;
+    margin: 0 5px;
+    padding: 1%;
+    
+}
+.card-container .card-body .card-item.today-card{
+    background: rgba(0,0,0,.2);
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.card-container .card-body .card-item .card-item-date{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-container .card-body .card-item-icon{
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-container .card-body .card-item-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loading{
+    text-align: center;
+    font-size: x-large;
+}
